@@ -7,6 +7,9 @@ public class Book {
     // a class like a blueprint and an object as a realization of that blueprint
 
     // fields
+    /**
+     * title represents the title of a book. it should be title case...
+     */
     private String title;
     private String author;
     private int numPages;
