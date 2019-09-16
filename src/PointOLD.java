@@ -1,13 +1,13 @@
-public class Point {
+public class PointOLD {
     private int x;
     private int y;
 
-    public Point() {
+    public PointOLD() {
         x = 0;
         y = 0;
     }
 
-    public Point(int x, int y) {
+    public PointOLD(int x, int y) {
         this.x = x;
         this.y = y;
     }

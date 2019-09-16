@@ -29,7 +29,7 @@ public class CircleTester {
         Circle c1 = new Circle();
         System.out.println(c1);
 
-        Circle c2 = new Circle(new Point(4, -3), 4.77);
+        Circle c2 = new Circle(new Circle.Point(4, -3), 4.77);
         System.out.println(c2);
 
         // convenience constructor

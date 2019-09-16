@@ -2,15 +2,15 @@ import java.util.Arrays;
 
 public class PointTester {
     public static void main(String[] args) {
-        Point origin = new Point();
+        Circle.Point origin = new Circle.Point(); // Math.PI
         System.out.println(origin);
 
         // array of references
-        Point[] points = new Point[5];
+        Circle.Point[] points = new Circle.Point[5];
         // NO Point objects were just made!!
 
         for (int i = 0; i < points.length; i++) {
-            points[i] = new Point(i, i); // actually make a Point object
+            points[i] = new Circle.Point(i, i); // actually make a Point object
         }
         System.out.println(Arrays.toString(points));
 
